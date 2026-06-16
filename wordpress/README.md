@@ -16,23 +16,3 @@ Wordpress support for [`dependabot-core`][core-repo].
   ```
 
 [core-repo]: https://github.com/dependabot/dependabot-core
-
-### Implementation Status
-
-This ecosystem is currently under development. See [NEW_ECOSYSTEMS.md](../NEW_ECOSYSTEMS.md) for implementation guidelines.
-
-#### Required Classes
-- [ ] FileFetcher
-- [ ] FileParser
-- [ ] UpdateChecker
-- [ ] FileUpdater
-
-#### Optional Classes
-- [ ] MetadataFinder
-- [ ] Version
-- [ ] Requirement
-
-#### Supporting Infrastructure
-- [ ] Comprehensive unit tests
-- [ ] CI/CD integration
-- [ ] Documentation
