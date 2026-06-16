@@ -56,6 +56,7 @@ class RakeHelpers
       terraform/dependabot-terraform.gemspec
       uv/dependabot-uv.gemspec
       vcpkg/dependabot-vcpkg.gemspec
+      wordpress/dependabot-wordpress.gemspec
     ).freeze,
     T::Array[String]
   )

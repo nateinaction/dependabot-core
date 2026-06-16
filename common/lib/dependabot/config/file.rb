@@ -92,7 +92,8 @@ module Dependabot
           "swift" => "swift",
           "terraform" => "terraform",
           "uv" => "uv",
-          "vcpkg" => "vcpkg"
+          "vcpkg" => "vcpkg",
+          "wordpress" => "wordpress"
         }.freeze,
         T::Hash[String, String]
       )

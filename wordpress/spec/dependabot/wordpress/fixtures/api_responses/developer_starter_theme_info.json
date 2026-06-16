@@ -1,0 +1,13 @@
+{
+  "name": "Developer Starter",
+  "slug": "developer-starter",
+  "version": "2.2.0",
+  "author": "Developer",
+  "requires": "6.0",
+  "requires_php": "8.0",
+  "download_link": "https://downloads.wordpress.org/theme/developer-starter.2.2.0.zip",
+  "versions": {
+    "2.1.0": "https://downloads.wordpress.org/theme/developer-starter.2.1.0.zip",
+    "2.2.0": "https://downloads.wordpress.org/theme/developer-starter.2.2.0.zip"
+  }
+}

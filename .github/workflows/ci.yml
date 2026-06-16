@@ -55,6 +55,7 @@ jobs:
           - { path: terraform, name: terraform, ecosystem: terraform }
           - { path: uv, name: uv, ecosystem: uv }
           - { path: vcpkg, name: vcpkg, ecosystem: vcpkg }
+          - { path: wordpress, name: wordpress, ecosystem: wordpress }
 
     steps:
       - name: Checkout code

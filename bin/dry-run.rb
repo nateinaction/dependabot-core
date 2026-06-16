@@ -92,6 +92,7 @@ $LOAD_PATH << "./terraform/lib"
 $LOAD_PATH << "./opentofu/lib"
 $LOAD_PATH << "./uv/lib"
 $LOAD_PATH << "./vcpkg/lib"
+$LOAD_PATH << "./wordpress/lib"
 
 updater_image_gemfile = File.expand_path("../dependabot-updater/Gemfile", __dir__)
 updater_repo_gemfile = File.expand_path("../updater/Gemfile", __dir__)

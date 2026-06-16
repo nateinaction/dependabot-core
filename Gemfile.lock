@@ -231,6 +231,12 @@ PATH
     dependabot-vcpkg (0.382.0)
       dependabot-common (= 0.382.0)
 
+PATH
+  remote: wordpress
+  specs:
+    dependabot-wordpress (0.382.0)
+      dependabot-common (= 0.382.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -518,6 +524,7 @@ DEPENDENCIES
   dependabot-terraform!
   dependabot-uv!
   dependabot-vcpkg!
+  dependabot-wordpress!
   gpgme (~> 2.0)
   rake (~> 13.2)
   rspec-its (~> 2.0)
@@ -588,6 +595,7 @@ CHECKSUMS
   dependabot-terraform (0.382.0)
   dependabot-uv (0.382.0)
   dependabot-vcpkg (0.382.0)
+  dependabot-wordpress (0.382.0)
   diff-lcs (1.6.2) sha256=9ae0d2cba7d4df3075fe8cd8602a8604993efc0dfa934cff568969efb1909962
   docile (1.4.0) sha256=5f1734bde23721245c20c3d723e76c104208e1aa01277a69901ce770f0ebb8d3
   docker_registry2 (1.19.0) sha256=e50fbe316422b33740c5c2c49b68d938314c2cf4367a381fa3277eb1c79b8623

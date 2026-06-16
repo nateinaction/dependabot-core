@@ -120,3 +120,6 @@ helm:
 vcpkg:
   - *shared
   - 'vcpkg/**'
+wordpress:
+  - *shared
+  - 'wordpress/**'

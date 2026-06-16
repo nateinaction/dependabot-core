@@ -102,3 +102,6 @@ vcpkg:
 conda:
   - *common
   - 'conda/**'
+wordpress:
+  - *common
+  - 'wordpress/**'

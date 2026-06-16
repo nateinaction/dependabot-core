@@ -59,6 +59,7 @@ Sentry.init do |config|
     opentofu|
     uv|
     vcpkg|
+    wordpress|
   )}x
 
   config.before_send = ->(event, hint) { Dependabot::Sentry.process_chain(event, hint) }

@@ -69,6 +69,7 @@ jobs:
           - { name: opentofu, ecosystem: opentofu }
           - { name: uv, ecosystem: uv }
           - { name: vcpkg, ecosystem: vcpkg }
+          - { name: wordpress, ecosystem: wordpress }
     env:
       COMMIT_SHA: ${{ github.sha }}
       NAME: ${{ matrix.suite.name }}

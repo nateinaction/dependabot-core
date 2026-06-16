@@ -153,5 +153,10 @@
     "core": "vcpkg",
     "test": "vcpkg",
     "ecosystem": "vcpkg"
+  },
+  {
+    "core": "wordpress",
+    "test": "wordpress",
+    "ecosystem": "wordpress"
   }
 ]

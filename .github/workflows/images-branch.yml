@@ -95,6 +95,7 @@ jobs:
           - { name: opentofu, ecosystem: opentofu }
           - { name: uv, ecosystem: uv }
           - { name: vcpkg, ecosystem: vcpkg }
+          - { name: wordpress, ecosystem: wordpress }
     permissions:
       contents: read
       id-token: write
