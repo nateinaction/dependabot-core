@@ -25,13 +25,6 @@ module Dependabot
 
       sig { override.returns(T::Array[DependencyFile]) }
       def fetch_files
-        unless allow_beta_ecosystems?
-          raise Dependabot::DependencyFileNotFound.new(
-            nil,
-            "WordPress support is currently in beta. Set ALLOW_BETA_ECOSYSTEMS=true to enable it."
-          )
-        end
-
         fetched_files = []
         fetched_files += fetch_plugin_files
         fetched_files += fetch_theme_files
